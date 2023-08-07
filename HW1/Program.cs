@@ -11,11 +11,11 @@ if (number2 < number1)
 {
     max = number1;
     min = number2;
-    Console.WriteLine("Большее число a = " + max + " меньшее число b = " + min);
+    Console.Write("Большее число a = " + max + "," + " меньшее число b = " + min);
 }
 else 
 {
     max = number2;
     min = number1;
-    Console.Write("Большее число b = " + max + " меньшее число a = " + min);
+    Console.Write("Большее число b = " + max + "," + " меньшее число a = " + min);
 }
