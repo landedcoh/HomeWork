@@ -2,5 +2,4 @@
 // является ли число чётным (делится ли оно на два без остатка).
 
 Console.Write("Введите число a ");
-double number1 = Convert.ToInt32(Console.ReadLine());
-if (number1 / 2 ==)
+double number1 = Convert.ToInt64(Console.ReadLine());

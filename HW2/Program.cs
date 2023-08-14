@@ -5,7 +5,7 @@ Console.Write("Введите число N ");
 int number1 = Convert.ToInt32(Console.ReadLine());
 int number2 = 1;
 int i = 1 + number2;
-while (i < number1 + 1) {
+while (i <= number1) {
     Console.Write(i + ", ");
     i = i + 2;
 }
